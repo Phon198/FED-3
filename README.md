@@ -12,7 +12,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
 ## Jij
 
-<details open>
+<details>
   <summary>uitwerken voor kick-off werkgroep</summary>
 
   ### Auteur:
@@ -32,7 +32,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
 ## Je website
 
-<details open>
+<details>
   <summary>uitwerken voor kick-off werkgroep</summary>
 
   ### Je opdracht:
@@ -52,11 +52,21 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
 ## Toegankelijkheidstest 1/2 (week 1)
 
-<details>
+<details open>
   <summary>uitwerken na test in 2<sup>e</sup> werkgroep</summary>
 
   ### Bevindingen
   Lijst met je bevindingen die in de test naar voren kwamen:
+  1.	Veel iconen en afbeeldingen op de site hebben geen beschrijvende alt-tekst. Wanneer een screenreader deze tegenkomt, wordt enkel "image" uitgesproken, zonder verdere context of uitleg over wat het voorstelt.
+  2.	De HTML maakt veelvuldig gebruik van generieke elementen zoals div, span en class namen zonder goede reden/waarde. 
+  3.	De toetsenbordnavigatie werkt grotendeels goed. Echter, op de overzichtspagina wordt bij elk product eerst de favoriet optie voorgelezen, in plaats van de productnaam. Dit kan verwarrend voor screenreadergebruikers.
+  4.	De koppenstructuur is op de overzichtspagina in orde. Op de productpagina wordt echter direct naar een h3 gesprongen, zonder dat daar een logische hiërarchie aan voorafgaat.
+  5.	De site maakt geen gebruik van semantische lijstelementen zoals ul, ol of li. Hierdoor is de inhoud voor screenreaders moeilijker te structureren en begrijpen.
+  6.	Sommige afbeeldingen hebben wel een alt tekst, maar deze bevat enkel de productnaam en geen beschrijving van wat er daadwerkelijk op de afbeelding te zien is. 
+  7.	Afbeeldingen met tekst bevatten vaak helemaal geen alt attribuut.
+  8.	In sommige weergavemode (zoals dark mode) verdwijnen visuele elementen van de site, zoals productafbeeldingen. Dit komt doordat er gebruik wordt gemaakt van een "onzichtbare" achtergrondkleur, waardoor bijvoorbeeld zwarte schoenen op een zwarte achtergrond niet zichtbaar zijn.
+  9.	De instelling "reduce motion" heeft geen effect (animaties blijven actief). Alhoewel het om een kleine animaties gaat.
+  10.	De secundaire tekstkleur op de site is te licht en voldoet niet aan de WCAG-contrastvereisten. Dit maakt de tekst moeilijk leesbaar voor gebruikers die bv kleurenblind zijn.
 
 </details>
 
@@ -64,11 +74,11 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
 ## Breakdownschets (week 1)
 
-<details>
+<details open>
   <summary>uitwerken na afloop 3<sup>e</sup> werkgroep</summary>
 
   ### de hele pagina: 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van de hele pagina">
+  <img src="readme-images/breakdownschetsPumps.jpg" width="375px" alt="breakdown van de hele pumps pagina">
 
   ### dynamisch deel (bijv menu): 
   <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van een dynamisch deel">
@@ -84,21 +94,22 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
 ## Voortgang 1 (week 2)
 
-<details>
+<details open>
   <summary>uitwerken voor 1<sup>e</sup> voortgang</summary>
 
   ### Stand van zaken
   hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+  Ik loop nog achter met het schrijven van de code zelf, maar ik ben dit jaar wel sneller met de opdrachten in klas en bergijp ze ook beter.
 
 
   ### Agenda voor meeting
   samen met je groepje opstellen
 
-  | student 1      | student 2          | student 3    | student 4        |
+  | Kanokphon      | student 2          | student 3    | student 4        |
   | ---            | ---                | ---          | ---              |
-  | dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-  | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-  | ...            | ...                | ...          | ...              |
+  | Mag je meerdere secties in de footer gebruiken?  | en dit             | en ik dit    | en dan ik dat    |
+  | Welk HTML element moet ik gebruiken voor de beoordeling onderaan de pagina (img)? | dit als er tijd is | nog een punt | dit wil ik zeker |
+  | Moet er in de head een header staan, of is dat niet nodig (moet ik een header hebben)?            | ...                | ...          | ...              |
 
 
   ### Verslag van meeting
