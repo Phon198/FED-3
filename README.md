@@ -105,11 +105,12 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### Agenda voor meeting
   samen met je groepje opstellen
 
-  | Kanokphon      | student 2          | student 3    | student 4        |
+  | Kanokphon      | Samya          | Zineb    | Bener        |
   | ---            | ---                | ---          | ---              |
-  | Mag je meerdere secties in de footer gebruiken?  | en dit             | en ik dit    | en dan ik dat    |
-  | Welk HTML element moet ik gebruiken voor de beoordeling onderaan de pagina (img)? | dit als er tijd is | nog een punt | dit wil ik zeker |
-  | Moet er in de head een header staan, of is dat niet nodig (moet ik een header hebben)?            | ...                | ...          | ...              |
+  | Mag je meerdere secties in de footer gebruiken?  | Kan ik in een section andere html elementen stoppen zonder een article om de section heen te zetten? | Hoe kun je iconen downloaden van de site? | Wanneer gebruik ik Ul en wanneer Ol?    |
+  | Welk HTML element moet ik gebruiken voor de beoordeling onderaan de pagina (img)? | Moet je een section zetten om de header als er een img in zit en een link? | Er bestaat geen h1 op de homepage van Cowboy, ik heb er nu voor gekozen om een visually hidden h1 te kiezen voor de screenreader, maar eigenlijk zou er wel een zichtbare h1 moeten zijn. Dit kan niet Cruiser zijn of Go Dutch, want dan zou Cruiser ST of de andere slogan ook een h1 moeten zijn maar er is maar een h1 op een pagina. | ⁠Ik heb lang niet gecodeerd. Hoe onderscheid ik een parent en een child? En wat betekenden ze? |
+  | Moet er in de head een header staan, of is dat niet nodig (moet ik een header hebben)?            | X                | Wanneer gebruik ik section en wanneer article? → Bijvoorbeeld bij de herhaalde productblokken (Cruiser, Cruiser ST).          | Op mijn website (lab111.nl) staat er op de homepage geen H1. Echter begint deze pagina met een grote logo. Mag deze als H1 worden gebruikt?              |
+  | Moet ik bij de dynamisch deel zoekbar een extra section maken voor de filters?           | X                | Wanneer gebruik ik figure en figcaption, en wanneer alleen een img?          | X              |
 
 
   ### Verslag van meeting
