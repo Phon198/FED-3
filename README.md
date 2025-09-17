@@ -101,6 +101,15 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
   Ik loop nog achter met het schrijven van de code zelf, maar ik ben dit jaar wel sneller met de opdrachten in klas en bergijp ze ook beter.
 
+  Code voortgang 1 head en header
+  <img src="readme-images/codeVoortgang1HeadEnHeader.jpg" width="375px" alt="Code voortgang 1 head en header">
+
+  Code voortgang 1 header
+  <img src="readme-images/codeVoortgang1Header.jpg" width="375px" alt="Code voortgang 1 header">
+
+  Code voortgang 1 main
+  <img src="readme-images/codeVoortgang1Main.jpg" width="375px" alt="Code voortgang 1 main">
+
 
   ### Agenda voor meeting
   samen met je groepje opstellen
