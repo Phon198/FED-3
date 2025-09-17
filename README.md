@@ -80,11 +80,11 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### de hele pagina: 
   <img src="readme-images/breakdownschetsPumps.jpg" width="375px" alt="breakdown van de hele pumps pagina">
 
-  ### dynamisch deel (bijv menu): 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van een dynamisch deel">
+  ### dynamisch deel (menu): 
+  <img src="readme-images/breakdownschetsMenu.jpg" width="375px" alt="breakdown van een menu">
 
-  ### wellicht nog een dynamisch deel (bijv filter): 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van nog een dynamisch deel">
+  ### wellicht nog een dynamisch deel (zoekbar): 
+  <img src="readme-images/breakdownschetsZoekbar.jpg" width="375px" alt="breakdown van nog een zoekbar">
 
 </details>
 
