@@ -29,3 +29,67 @@
 
 /* jouw code */
 
+/* basis header */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  background: white;
+  z-index: 1000;
+  padding: 0.5em 1em;
+}
+
+/* eerste button in header = hamburgerknop */
+header > button {
+  order: -1;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+/* nav standaard dicht */
+header > nav {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+
+  background: white;
+  padding: 2em;
+  overflow-y: auto;
+
+  transform: translateX(-100%);
+  transition: transform 0.4s ease-in-out;
+}
+
+/* open nav via data attribuut */
+header > nav[data-open="true"] {
+  transform: translateX(0%);
+}
+
+/* sluitknop in nav */
+header > nav > button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  display: block;
+  margin-left: auto;
+  margin-bottom: 1em;
+}
+
+header img{
+	height: 2em;
+}
+
+/* section 1 */
+main section ul{
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+}
+
+main img{
+	height: 2em;
+}

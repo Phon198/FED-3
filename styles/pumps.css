@@ -1,0 +1,14 @@
+:root {
+	--color-text:#111;
+	--color-background:#eee;
+}
+
+/* section 1 */
+main section ul{
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+}
+
+main img{
+	height: 2em;
+}

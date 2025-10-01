@@ -40,11 +40,11 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   #### Screenshot(s) van de eerste pagina (small screen): 
   pumps <a>https://www.nolten.nl/dames/schoenen/pumps/?p=1&properties=ba5ddb43c819f8b227a6eb6a88674c1f%7C92cc227532d17e56e07902b254dfad10<a>  
-  <img src="images/noltenPumps.jpg" width="375px" alt="overzicht pagina van leren pumps maat 38">
+  <img src="readme-images/noltenPumps.jpg" width="375px" alt="overzicht pagina van leren pumps maat 38">
 
   #### Screenshot(s) van de tweede pagina (small screen):
   comfort <a>https://www.nolten.nl/di-lauro-romani-light-beige77-38-47597<a> 
-  <img src="images/noltenComfort.jpg" width="375px" alt="details pagina van Di Lauro comfort pumps">
+  <img src="readme-images/noltenComfort.jpg" width="375px" alt="details pagina van Di Lauro comfort pumps">
  
 </details>
 
@@ -94,7 +94,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
 ## Voortgang 1 (week 2)
 
-<details open>
+<details>
   <summary>uitwerken voor 1<sup>e</sup> voortgang</summary>
 
   ### Stand van zaken
@@ -138,21 +138,37 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
 ## Voortgang 2 (week 3)
 
-<details>
+<details open>
   <summary>uitwerken voor 2<sup>e</sup> voortgang</summary>
 
   ### Stand van zaken
-  hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+  Ik had niet goed in mijn agenda gezet wanneer de 2e voortgang is, dus loop nog steets er achter.
 
+  HTML code voortgang 2
+  <img src="readme-images/Voortgang2HTML.jpg" width="375px" alt="HTML code voortgang 2">
+
+  CSS code voortgang 2
+  <img src="readme-images/Voortgang2CSS.jpg" width="375px" alt="CSS code voortgang 2">
+
+  JS code voortgang 2
+  <img src="readme-images/Voortgang2JS.jpg" width="375px" alt="JS code voortgang 2">
+
+  Site voortgang 2
+  <img src="readme-images/Voortgang2Site1.jpg" width="375px" alt="Voortgang 2 site header en main section 1">
+  <img src="readme-images/cVoortgang2Site2.jpg" width="375px" alt="Voortgang 2 site main section 2">
+  <img src="readme-images/Voortgang2Site3.jpg" width="375px" alt="Voortgang 2 site footer">
+  <img src="readme-images/Voortgang2Site4.jpg" width="375px" alt="Voortgang 2 site menu">
 
   ### Agenda voor meeting
   samen met je groepje opstellen
 
-  | student 1      | student 2          | student 3    | student 4        |
+  | Kanokphon      | Samya          | Zineb    | Bener        |
   | ---            | ---                | ---          | ---              |
-  | dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-  | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-  | ...            | ...                | ...          | ...              |
+  | Waar kan ik gratis svg download?  | Kan ik dezelfde h3’s gebruiken in 1 lijstje?  | X    | Hoe overlap ik 2 foto’s op elkaar?    |
+  | Mag ik andere inhoud in mijn code verwerken dan wat ik in mijn ReadMe staat? | Kan ik li’s gebruiken voor de content op mijn website ipv sections? Welke zou beter zijn? | X | Maak je een hamburger menu als icon? |
+  | Kan ik ergens een "correct" tag volgorde van HTML en CSS vinden?            | Met welke html tag verberg ik de h1 op mijn website                | X          | Hoe plaats ik dingen op volgorde in HTML? (bijvoorbeeld de volgorde van de nav en hoe je dat moet nesten).          |
+  | Als ik op zoeken druk, krijg ik niet alleen de zoekbalk maar ook filters  in een aparte sectie. Hoe laat ik dat ook verschijnen samen met de zoekbalk?            | Hoe kan ik de border radius aanpassen op 1 hoek van een css element?                | X          | Hebben we al gehad, maar hoe maak ik code responsive?          |
+  | Hoe kan ik een 2e CSS koppelen?            | Hoe maak ik drop downs in een hamburger menu?                | X          | X          |
 
 
   ### Verslag van meeting
