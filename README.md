@@ -225,8 +225,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   | Kanokphon      | Samya          | Zineb    | Bener        |
   | ---            | ---                | ---          | ---              |
-  | Wat heb ik gedaan dat mijn kleuren van mijn root niet toe gepassen kunnen worden?
-  | Hoe zet ik iconen in de footer naast elkaar?             | Waarom zie ik niet alle html elementen van mijn footer?    | Hoe maak je ook alweer een foto carousel/slider? (Automatisch)    |
+  | Wat heb ik gedaan dat mijn kleuren van mijn root niet toe gepassen kunnen worden?  | Hoe zet ik iconen in de footer naast elkaar?      | Waarom zie ik niet alle html elementen van mijn footer?    | Hoe maak je ook alweer een foto carousel/slider? (Automatisch)    |
   | Hoe kan ik in 1x dark mode via root coderen? | ⁠Mijn sluit knop van de hamburger menu doet het niet, waar kan dat aan liggen? | Klopt mijn css hyrargie: common, index en testrit | dit wil ik zekerHoe maak ik hover animaties in die carousel? |
   | Moet ik elke button in mijn site werkend maken?           | ⁠hoe style ik foto’s in een bepaalde vorm?             | Hoe kan ik de kleur van mijn iconen aanpassen         | Hoe maak ik die blauwe lijntjes tussendoor mijn sections in mijn website?  (lab111.nl)              |
   | Hoe krijg ik 1 versie van de beoordeling afbeelding in css ipv deze afbeelding meerdere keren achter elkaar?           | X               | Ik heb in mijn navigatie a gebruikt ipv buttons. Kan ik dit in javascript makkelijk gebruiken, omdat het dus niet echt wordt gelinkt naar een pagina maar op de pagina blijft.          | Specials img of banner?              |
