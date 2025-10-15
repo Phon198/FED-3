@@ -14,9 +14,36 @@
 /* CUSTOM PROPERTIES */
 /*********************/
 :root {
-	/* startje */
-	--color-text:#111;
-	--color-background:#eee;
+  /* startje */
+  color-scheme: light dark;
+  --b-orange-blue: #e4a33b, #1B5CC4;
+  --b-gray: #555050, #AAAFAF;
+  --ff-black-white: #000000, #ffffff;
+  --ff-white-black: #ffffff, #000000;
+  --ff-gray: #555050, #AAAFAF;
+  --bg-light-dark: #ffffff, #000000;
+  --bg-gray: #eeeeee, #111111;
+}
+
+@font-face{
+  font-family: "Awesome";
+  src: url(../font/fontawesome-webfont.woff2);
+}
+
+@font-face {
+  font-family: "GothamBook";
+  src: url(../font/GothamBook.woff);
+}
+
+@font-face {
+  font-family: "GothamMedium";
+  src: url(../font/GothamMedium.woff);
+}
+
+@font-face {
+  font-family: "OpenSans";
+  src: url(../font/OpenSans-Regular.eot);
+  font-weight: 400;
 }
 
 
@@ -28,6 +55,28 @@
 /****************/
 
 /* jouw code */
+/* algemeene styling*/
+*{
+  padding: 0;
+  margin: 0;
+}
+
+ul{
+  list-style-type: none;
+}
+
+a{
+  text-decoration: none;
+  color: #000000;
+}
+
+details{
+  text-transform: uppercase;
+}
+
+h2, h3, p, a, details{
+  font-family: 'OpenSans', Arial, sans-serif;
+}
 
 /* basis header */
 header {
@@ -80,16 +129,48 @@ header > nav > button {
   margin-bottom: 1em;
 }
 
-header img{
-	height: 2em;
+header nav a{
+  display: flex;
+  text-transform: uppercase;
 }
 
-/* section 1 */
-main section ul{
-	display: grid;
-	grid-template-columns: 1fr 1fr;
+header svg{
+  width: 1.375rem;
+	height: 1.375rem;
 }
 
-main img{
-	height: 2em;
+header h1 a img{
+  width: 8.75rem;
+  height: 2.103rem;
 }
+
+header{
+  display: flex;
+}
+
+header label{
+  order: -1;
+}
+
+/* footer */
+footer a{
+  display: flex;
+}
+
+footer section:first-of-type{
+  background-color: #eeeeee;
+}
+
+footer section:first-of-type section:first-of-type h2:first-of-type{
+  background: url(../images/kv_shape.svg);
+}
+
+footer button{
+  width: 20.95rem;
+  height: 2.1rem;
+  background-color:#555050;
+  margin: 1rem;
+  color: #ffffff;
+  text-transform: uppercase;
+}
+

@@ -138,7 +138,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
 ## Voortgang 2 (week 3)
 
-<details open>
+<details>
   <summary>uitwerken voor 2<sup>e</sup> voortgang</summary>
 
   ### Stand van zaken
@@ -174,7 +174,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
 
-  - punt 1
+  - De icon kan ik terug vinden bij Nolten, inspecteren, inspect, durk op icon, druk op 3 pinten links, editten in HTML, kopier de hele lijk en vermel er bij dat de svg van Not
   - punt 2
   - nog een punt
 - ...
@@ -201,21 +201,38 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
 ## Voortgang 3 (week 4)
 
-<details>
+<details open>
   <summary>uitwerken voor 3<sup>e</sup> voortgang</summary>
 
   ### Stand van zaken
-  hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+  Ik loop nog steeds achter met mijn code. Ik heb te veel tijd besteed aan het uitzoeken waarom de kleuren in mijn CSS niet werkten. Ik denk dat het probleem in mijn :root-instellingen zit. Daarnaast heeft de achtergrond in CSS veel tijd gekost, omdat die niet doet wat ik wil. Ook kreeg ik de social media iconen niet netjes naast elkaar en het favorieten hartje bij de producten blijft steeds verschuiven. Wat wel goed gelukt is, is de carousel, maar dat is eigenlijk het enige.
+
+  Root Probleem voortgang 3
+  <img src="readme-images/rootProbleem.jpg" width="375px" alt="Root Probleem voortgang 3">
+
+  Beoordelingen achtergrond en iconen voortgang 3
+  <img src="readme-images/beoordelingenAchtergrondEnIconen.jpg" width="375px" alt="Beoordelingen achtergrond en iconen voortgang 3">
+
+  Favourite button voortgang 3
+  <img src="readme-images/favouriteButton.jpg" width="375px" alt="Favourite button voortgang 3">
+
+  Carousel CSS voortgang 3
+  <img src="readme-images/carouselCSS.jpg" width="375px" alt="Carousel CSS voortgang 3">
 
 
   ### Agenda voor meeting
   samen met je groepje opstellen
 
-  | student 1      | student 2          | student 3    | student 4        |
+  | Kanokphon      | Samya          | Zineb    | Bener        |
   | ---            | ---                | ---          | ---              |
-  | dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-  | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-  | ...            | ...                | ...          | ...              |
+  | Wat heb ik gedaan dat mijn kleuren van mijn root niet toe gepassen kunnen worden?
+  | Hoe zet ik iconen in de footer naast elkaar?             | Waarom zie ik niet alle html elementen van mijn footer?    | Hoe maak je ook alweer een foto carousel/slider? (Automatisch)    |
+  | Hoe kan ik in 1x dark mode via root coderen? | ⁠Mijn sluit knop van de hamburger menu doet het niet, waar kan dat aan liggen? | Klopt mijn css hyrargie: common, index en testrit | dit wil ik zekerHoe maak ik hover animaties in die carousel? |
+  | Moet ik elke button in mijn site werkend maken?           | ⁠hoe style ik foto’s in een bepaalde vorm?             | Hoe kan ik de kleur van mijn iconen aanpassen         | Hoe maak ik die blauwe lijntjes tussendoor mijn sections in mijn website?  (lab111.nl)              |
+  | Hoe krijg ik 1 versie van de beoordeling afbeelding in css ipv deze afbeelding meerdere keren achter elkaar?           | X               | Ik heb in mijn navigatie a gebruikt ipv buttons. Kan ik dit in javascript makkelijk gebruiken, omdat het dus niet echt wordt gelinkt naar een pagina maar op de pagina blijft.          | Specials img of banner?              |
+  | Hoe moet ik de favorieten hartje bij de producten aan spreken in css.?           | X               | X          | Hoe verstop ik de rest van tekst in mijn captions?              |
+  | Hoe kan ik alleen de social media bij de beoordeling naast elkaar krijgen?           | X               | X         | Icoontjes in footer. Hover, linkjes, svg?             |
+  | Hoeveel js moeten we hebben, 1 toch?          | X              | X         | X             |
 
 
   ### Verslag van meeting
