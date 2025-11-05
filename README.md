@@ -125,10 +125,10 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
 
-  - punt 1
-  - punt 2
-  - nog een punt
-  - ...
+  - Het is toegestaan om meerdere <section>-elementen in de footer te gebruiken, zolang elke sectie een duidelijke functie heeft. Voor de sterrenbeoordeling kan een afbeelding worden gebruikt, maar een SVG-icoon met een duidelijke alt-tekst (bijvoorbeeld “4 van 5 sterren”) is beter. Verder hoort een <header> nooit in de <head>, maar altijd in de <body>. Voor de filteropties bij de zoekbalk kan een aparte <section> worden gebruikt, omdat het om een apart onderdeel van de pagina gaat.
+  - Samya vroeg of zij andere HTML-elementen in een <section> mag zetten zonder eerst een <article> te gebruiken. Dat mag, want een <article> is alleen nodig als de inhoud zelfstandig staat, bijvoorbeeld een nieuwsartikel. Zij vroeg ook of een header in een section moet als er een afbeelding en link in zit. Dat hoeft niet, omdat een <header> al een eigen betekenis heeft en dus zelfstandig gebruikt kan worden.
+  - Zineb had vragen over de Cowboy-website. Iconen kunnen worden gedownload via de inspectietools in de browser. Omdat de homepage geen <h1> heeft, is het goed dat zij een visually-hidden <h1> heeft toegevoegd, al zou er eigenlijk een zichtbaar hoofdtitel-element moeten staan. Productblokken kunnen het beste als <article> worden gemarkeerd, omdat het losse contentonderdelen zijn. <figure> met <figcaption> gebruik je alleen als een afbeelding uitleg of een onderschrift nodig heeft; anders is een gewone <img> met alt-tekst voldoende.
+  - Bener vroeg wanneer je <ul> of <ol> gebruikt. Een <ul> is voor lijsten zonder volgorde en een <ol> voor lijsten waar volgorde belangrijk is, zoals stappenplannen. Ook werd uitgelegd dat een parent-element een element bevat en dat het element binnenin een child-element is; dit bepaalt ook hoe stijlen worden overgenomen. Tot slot mag het grote logo op de homepage van zijn website als <h1> gebruikt worden, als er een goede alt-tekst bij hoort en het echt de titel van de pagina is.
 
 </details>
 
@@ -174,9 +174,9 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
 
-  - De icon kan ik terug vinden bij Nolten, inspecteren, inspect, durk op icon, druk op 3 pinten links, editten in HTML, kopier de hele lijk en vermel er bij dat de svg van Not
-  - punt 2
-  - nog een punt
+  - De icon kan ik terug vinden bij Nolten, inspecteren, inspect, durk op icon, druk op 3 pinten links, editten in HTML, kopier de hele lijk en vermel er bij dat de svg van Nolten komt. Je mag andere content gebruiken dan in je README staat, zolang de structuur en toegankelijkheidsdoelen hetzelfde blijven.
+  - Samya vroeg of zij meerdere <h3>-koppen in één lijst mag gebruiken. Dat is toegestaan, zolang de koppen logisch zijn binnen de structuur. Ze wilde ook weten of ze <li>-elementen kan gebruiken voor content in plaats van <section>-elementen; dit is alleen geschikt als het echt om een "lijst" gaat, anders is <section> geschikter. Voor een verborgen <h1> kan een visually-hidden class worden gebruikt (bijvoorbeeld met CSS clip of visually-hidden). Ze vroeg daarnaast hoe je één hoek van een element een border-radius geeft; dit kan met eigenschappen zoals border-top-left-radius. Voor een hamburger-menu kan je HTML-knoppen gebruiken (bijvoorbeeld een <button>) met CSS en eventueel JavaScript voor de dropdowns.
+  - Bener wilde weten hoe twee afbeeldingen overlappend geplaatst kunnen worden; dit kan via position: relative/absolute. Verder vroeg hij hoe een hamburger-menu-icoon gemaakt wordt. Dit kan met een SVG-icoon of drie div-balkjes gestyled in CSS.
 - ...
 
 </details>
@@ -237,10 +237,10 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
 
-  - punt 1
-  - punt 2
-  - nog een punt
-  - ...
+  - Donkere modus kan via :root met een data-theme="dark" of prefers-color-scheme worden ingesteld. Niet alle buttons hoeven volledig functioneel te zijn, zolang de belangrijkste interacties maar duidelijk en toegankelijk zijn. Voor de beoordelings­afbeelding kan één SVG of achtergrondafbeelding worden gebruikt met background-repeat. Het favorieten-icoon kan met een class of [aria-label="favoriet"] worden aangesproken. De social media-iconen naast elkaar plaatsen kan met display:flex en meer sections. Eén JavaScript-bestand is prima zolang de code overzichtelijk blijft.
+  - Samya vroeg hoe ze iconen naast elkaar plaatst in de footer. Dit kan met display:flex. Haar sluitknop in het hamburger-menu werkt waarschijnlijk niet door een verkeerd gekoppelde JavaScript-selector of ontbrekende event-listener. Foto’s kunnen in een vorm worden gestyled met border-radius, clip-path of mask.
+  - Zineb zag niet alle HTML-elementen in haar footer, waarschijnlijk door verborgen CSS-regels of gebrek aan ruimte/overflow-instellingen. Haar CSS-structuur klopt wanneer algemene stijlen eerst komen en paginaspecifieke bestanden daarna. Iconen kunnen worden gekleurd met fill: (SVG) of filter bij PNG’s. Het gebruik van <a> in de navigatie is prima in combo met lu.
+  - Bener vroeg hoe hij een automatische slider maakt; dit kan met CSS-animations of JavaScript setInterval of carousel. Hover-animaties kunnen worden toegevoegd met :hover en transition. Lijnen tussen secties kunnen met border-bottom.
 
 </details>
 
@@ -282,8 +282,9 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   Nb. ChatGpT en andere AI horen er ook bij.
   Nb. Vermeld de bronnen ook in je code.
 
-  1. bron 1
-  2. bron 2
-  3. ...
+  1. https://www.nolten.nl/
+  2. https://developer.mozilla.org/en-US/
+  3. https://codepen.io/
+  4. https://chatgpt.com/
 
 </details>

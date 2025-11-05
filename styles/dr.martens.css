@@ -1,13 +1,13 @@
 :root {
-    color-scheme: light dark;
-    --b-orange-blue: #e4a33b, #1B5CC4;
-    --b-gray: #555050, #AAAFAF;
-    --b-white-black: #ffffff, #000000;
-    --ff-black-white: #000000, #ffffff;
-    --ff-white-black: #ffffff, #000000;
-    --ff-gray: #555050, #AAAFAF;
-    --bg-light-dark: #ffffff, #000000;
-    --bg-gray: #eeeeee, #111111;
+  color-scheme: light dark;
+  --b-orange-blue:light-dark(#e4a33b, #1B5CC4);
+  --b-gray:light-dark(#555050, #AAAFAF);
+  --b-white-black:light-dark(#ffffff, #000000);
+  --ff-black-white:light-dark(#000000, #ffffff);
+  --ff-white-black:light-dark(#ffffff, #000000);
+  --ff-gray:light-dark (#555050, #AAAFAF);
+  --bg-light-dark:light-dark (#ffffff, #000000);
+  --bg-gray:light-dark (#eeeeee, #111111);
 }
 
 @font-face{
@@ -36,7 +36,6 @@ main ul:first-of-type {
   display: flex;
   overflow: auto;
   scroll-snap-type: x mandatory;
-  scroll-behavior: smooth;
   overscroll-behavior-x: contain;
   gap: 1em;
   scrollbar-width: thin;
@@ -69,3 +68,4 @@ main ul:first-of-type li {
     display: block;
   }
 }
+

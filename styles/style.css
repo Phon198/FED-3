@@ -16,13 +16,14 @@
 :root {
   /* startje */
   color-scheme: light dark;
-  --b-orange-blue: #e4a33b, #1B5CC4;
-  --b-gray: #555050, #AAAFAF;
-  --ff-black-white: #000000, #ffffff;
-  --ff-white-black: #ffffff, #000000;
-  --ff-gray: #555050, #AAAFAF;
-  --bg-light-dark: #ffffff, #000000;
-  --bg-gray: #eeeeee, #111111;
+  --b-orange-blue:light-dark(#e4a33b, #1B5CC4);
+  --b-gray:light-dark(#555050, #AAAFAF);
+  --b-white-black:light-dark(#ffffff, #000000);
+  --ff-black-white:light-dark(#000000, #ffffff);
+  --ff-white-black:light-dark(#ffffff, #000000);
+  --ff-gray:light-dark (#555050, #AAAFAF);
+  --bg-light-dark:light-dark (#ffffff, #000000);
+  --bg-gray:light-dark (#eeeeee, #111111);
 }
 
 @font-face{
@@ -70,7 +71,7 @@ a{
   color: #000000;
 }
 
-details{
+details summary{
   text-transform: uppercase;
 }
 
@@ -152,25 +153,29 @@ header label{
   order: -1;
 }
 
+
 /* footer */
 footer a{
   display: flex;
 }
 
-footer section:first-of-type{
-  background-color: #eeeeee;
+footer section{
+  background-color: var(--bg-gray);
 }
 
-footer section:first-of-type section:first-of-type h2:first-of-type{
+footer section:first-of-type{
   background: url(../images/kv_shape.svg);
+  background-repeat: no-repeat;
+  background-size: 5em 5em;
+  height: 5em;
 }
 
 footer button{
   width: 20.95rem;
   height: 2.1rem;
-  background-color:#555050;
+  background-color:var(--b-gray);
   margin: 1rem;
-  color: #ffffff;
+  color: var(--ff-white-black);
   text-transform: uppercase;
 }
 
